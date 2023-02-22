@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<head>
+     <style>
+		*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+/*--------- box height ------------*/
+.box{
+	font-size:50px;
+	text-align:center;
+	height:40vh;
+	background-color:green;
+	border:5px solid gray;
+}
+/*------------- all container width ------------*/
+.container{
+	width:85%;
+	margin:0 auto;
+}
+/*=====================	flex-direction:column==================*/
+.column{
+	display:flex;
+	flex-direction:column;
+}
+.col{
+	width:20%;
+}
+/*=====================	flex-direction:column-reverse==================*/
+.columnreverse{
+	display:flex;
+	flex-direction:column-reverse;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-direction:ro==================*/
+.row{
+	display:flex;
+	flex-direction:row;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-direction:row-reverse==================*/
+
+.rowreverse{
+	display:flex;
+	flex-direction:row-reverse;
+}
+.col{
+	width:20%;
+}
+/*=====================	flex-wrap ==================*/
+.wrap{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-wrap=wrap-reverse ==================*/
+.wrapreverse{
+	display:flex;
+	flex-wrap:wrap-reverse;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-flow ==================*/
+.flexflow{
+	display:flex;
+	flex-flow:row-reverse wrap;
+}
+.col{
+	width:70%;
+}
+/*=====================	justify-content=left ==================*/
+
+.left{
+	display:flex;
+	justify-content:left;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=center ==================*/
+.center{
+	display:flex;
+	justify-content:center;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=right==================*/
+.right{
+	display:flex;
+	justify-content:right;
+}
+.col{
+	width:20%;
+}
+/*=====================	justify-content=space-around ==================*/
+.spacearound{
+	display:flex;
+	justify-content:space-around;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=space-between ==================*/
+.spacebetween{
+	display:flex;
+	justify-content:space-between;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=space-evenly ==================*/
+.spaceevenly{
+	display:flex;
+	justify-content:space-evenly;
+}
+.col{
+	width:20%;
+}
+
+/*===================== align-items:flex-start	 ==================*/
+.alignstart{
+	display:flex;
+	align-items:flex-start;
+}
+.col{
+	width:20%;
+}
+
+.box1{
+	height:60vh;
+	background-color:green;
+	border:5px solid gray;
+}
+/*===================== align-items:center	 ==================*/
+.aligncenter{
+	display:flex;
+	align-items:center;
+}
+.col{
+	width:20%;
+}
+.box1{
+	height:90vh;
+	background-color:green;
+	border:5px solid gray;
+}
+/*===================== align-items:flex-end	 ==================*/
+.alignend{
+	display:flex;
+	align-items:flex-end;
+}
+.col{
+	width:20%;
+}
+.box1{
+	height:90vh;
+	background-color:green;
+	border:5px solid gray;
+}
+/*===================== align-items:baseline	 ==================*/
+.baseline{
+	display:flex;
+	align-items:baseline;
+	
+}
+.col{
+	width:20%;
+}
+.box8{
+	height:10vh;
+	background-color:green;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+.box9{
+	height:10vh;
+	background-color:green;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+/*===================== align-content:center	 ==================*/
+
+.content{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:center;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*===================== align-contant:flex-start	 ==================*/
+.start{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:flex-start;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+/*===================== align-items:flex-end	 ==================*/
+
+.end{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:flex-end;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*===================== align-items:space-between ==================*/
+.contentbetween{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:space-between;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*===================== align-items:space-around ==================*/
+.contentaround{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:space-around;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*=========================  align-items:space-stretch ====================*/
+.contentstretch{
+	display:flex;
+	align-items:stretch;
+	height:100vh;
+	background-color:blue;
+	
+}
+.col{
+	width:20%;
+}
+.boxcon{
+		
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+
+
+	/*---justify flex start ---*/
+      .row10{
+		  display: flex;
+		background-color: pink;
+		height: 100px;
+	
+		 justify-content:flex-start;
+	  }
+	  .column10{
+		  width:100%;
+	  }
+	  .box11{
+		  border: 2px solid black;
+		height: 100px;
+		width:100px;
+		 background-color:blue;
+	  }
+	  /*----justify end---*/
+	  /*---justify flex end start ---*/
+	   .row11{
+		  display: flex;
+		background-color: pink;
+		height: 100px;
+		justify-content:flex-end;
+	  }
+	  .column11{
+		  width:100%;
+	  }
+	  .box12{
+		  border: 2px solid black;
+		height: 100px;
+		width:100px;
+		 background-color:blue;
+	  }
+	   /*---justify flex end finish ---*/
+	    /*----justify center start---*/
+		 .row12{
+		  display: flex;
+		background-color: pink;
+		height: 100px;
+		justify-content:center;
+	  }
+	  .column12{
+		  width:100%;
+	  }
+	  .box13{
+		  border: 2px solid black;
+		height: 100px;
+		width:100px;
+		 background-color:blue;
+	  }
+	   /*----justify center end---*/
+		 /*----justify space around start---*/
+		 .row13{
+		  display: flex;
+		background-color: pink;
+		height: 100px;
+		justify-content:space-around;
+	  }
+	  
+	  .column13{
+		  width:100px;
+	  }
+	  .box14{
+		  border: 2px solid black;
+		height: 100px;
+		 background-color:blue;
+	  }
+	   /*----justify space around end---*/
+	   /*----justify space between start---*/
+	    .row14{
+		  display: flex;
+		background-color: pink;
+		height: 100px;
+		justify-content:space-between;
+	  }
+	  .column14{
+		  width:100px;
+		  background-color:blue;
+	  }
+	 
+	  .box15{
+		  border: 2px solid black;
+		height: 100px;
+	  }
+	  /*----justify space between end---*/
+	   /*----justify space evenly start---*/
+	    .row15{
+		  display: flex;
+		background-color: pink;
+		height: 100px;
+		justify-content:space-evenly;
+	  }
+	  
+	  .column15{
+		  width:100px;
+		  background-color:blue;
+
+	  }
+	  .box16{
+		  border: 2px solid black;
+		height: 100px;
+	  }
+		
+		  /*----justify space evenly end---*/
+	 
+	 </style>
+</head>
+<body>
+<!-------- FLEX-DIRECTION-COLUMN ------------>
+<section class="example">
+   <h1>FLEX-DIRECTION-COLUMN</H1>
+  <div class="container">
+  <div class="column">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+  <!-------- FLEX-DIRECTION-COLUMN-REVERSE ------------>
+  <section class="example">
+   <h1>FLEX-DIRECTION-COLUMN-REVERSE</H1>
+  <div class="container">
+  <div class="columnreverse">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+  <!-------- FLEX-DIRECTION-ROW ------------>
+   <section class="example">
+   <h1>FLEX-DIRECTION-ROW</H1>
+  <div class="container">
+  <div class="row">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+  <!-------- FLEX-DIRECTION-ROW-REVERSE------------>
+   <section class="example">
+   <h1>FLEX-DIRECTION-ROW-REVERSE</H1>
+  <div class="container">
+  <div class="rowreverse">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+    <!-------- FLEX-WRAP------------>
+     <section class="example">
+   <h1>FLEX-WRAP</H1>
+  <div class="container">
+  <div class="wrap">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div>
+   <div class="col">
+  <div class="box">5
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">6
+  </div>
+  </div>  
+  </div>
+  </div>
+  </section>
+  
+ <!-------- FLEX-WRAP-REVERSE------------>
+   <section class="example">
+   <h1>FLEX-WRAP-REVERSE</H1>
+  <div class="container">
+  <div class="wrapreverse">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+   <div class="col">
+  <div class="box">5
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">6
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+     <!-------- FLEX-FLOW------------>
+    <section class="example">
+   <h1>FLEX-FLOW</H1>
+  <div class="container">
+  <div class="flexflow">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+    <!--------JUSTIFY-CONTENT-LEFT ------------>
+   <section class="example">
+   <h1>JUSTIFY-CONTENT-LEFT</H1>
+  <div class="container">
+  <div class="left">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+      <!--------JUSTIFY-CONTENT-CENTER ------------>
+    <section class="example">
+   <h1>JUSTIFY-CONTENT-CENTER</H1>
+  <div class="container">
+  <div class="center">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+ 
+      <!--------JUSTIFY-CONTENT-RIGHT----------->
+   <section class="example">
+   <h1>JUSTIFY-CONTENT-RIGHT</H1>
+  <div class="container">
+  <div class="right">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+        <!--------JUSTIFY-CONTENT-SPACE-AROUND------------>
+     <section class="example">
+   <h1>JUSTIFY-CONTENT-SAPCE-AROUND</H1>
+  <div class="container">
+  <div class="spacearound">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+  
+      <!--------JUSTIFY-CONTENT-SPACE-BETWEEN ------------>
+     <section class="example">
+   <h1>JUSTIFY-CONTENT-SPACE-BETWEEN</H1>
+  <div class="container">
+  <div class="spacebetween">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+  
+        <!--------JUSTIFY-CONTENT-SPACE-EVENLY ------------>
+     <section class="example">
+   <h1>JUSTIFY-CONTENT-SPACE-EVENLY</H1>
+  <div class="container">
+  <div class="spaceevenly">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+      <!--------ALIGN-ITEMS-START ------------>
+   <section class="example">
+   <h1>ALIGN-ITEMS-START</H1>
+  <div class="container">
+  <div class="alignstart">
+  
+  <div class="col">
+  <div class="box1">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+ <!--------ALIGN-ITEMS-CENTER ------------>
+   <section class="example">
+   <h1>ALIGN-ITEMS-CENTER</H1>
+  <div class="container">
+  <div class="aligncenter">
+  
+  <div class="col">
+  <div class="box1">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+   <!--------ALIGN-ITEMS-END ------------>
+   <section class="example">
+   <h1>ALIGN-ITEMS-END</H1>
+  <div class="container">
+  <div class="alignend">
+  
+  <div class="col">
+  <div class="box1">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+   <!--------ALIGN-BASELINE ------------>
+    <section class="example">
+   <h1>ALIGN-BASELINE</H1>
+  <div class="container">
+  <div class="baseline">
+  
+  <div class="col">
+  <div class="box">1
+  </div>
+  </div>
+  <div class="col">
+  <div class="box8">2
+  </div>
+  </div>
+  <div class="col">
+  <div class="box9">3
+  </div>
+  </div>
+  <div class="col">
+  <div class="box">4
+  </div>
+  </div> 
+  </div>
+  </div>
+  </section>
+   <!--------ALIGN-CONTANT-CENTER ------------>
+   <section class="example">
+   <h1>ALIGN-CONTENT-CENTER</H1>
+  <div class="container">
+  <div class="content">
+  
+  <div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div>
+  
+  </div> 
+  </div>
+  </section>
+  
+  <!--------ALIGN-CONTANT-FLEX-START------------>
+  <section class="example">
+   <h1>ALIGN-CONTENT-FLEX-START</H1>
+  <div class="container">
+  <div class="start">
+  
+  <div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div>
+  </div> 
+  </div>
+  </section>
+  <!--------ALIGN-CONTANT-FLEX-END------------>
+  <section class="example">
+   <h1>ALIGN-CONTENT-FLEX-END</H1>
+  <div class="container">
+  <div class="end">
+  <div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div>
+  </div> 
+  </div>
+  </section>
+  <!--------ALIGN-CONTANT-FLEX-BETWEEN------------>
+  <section class="example">
+   <h1>ALIGN-CONTENT-SPACE-BETWEEN</H1>
+  <div class="container">
+  <div class="contentbetween">
+  <div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div>
+  </div> 
+  </div>
+  </section>
+  <!--------ALIGN-CONTANT-SPACE-AROUND------------>
+  <section class="example">
+   <h1>ALIGN-CONTENT-SPACE-AROUND</H1>
+  <div class="container">
+  <div class="contentaround">
+  <div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div>
+  </div> 
+  </div>
+  </section>
+  
+  
+   <section class="example">
+   <h1>ALIGN-ITEMS-STRETCH</H1>
+  <div class="container">
+  <div class="contentstretch">
+  <div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+  </div><div class="col">
+  <div class="boxcont">1
+  </div>
+ 
+  </div>
+  </div> 
+  </div>
+  </section>
+  
+  
+  <div class="justify">
+	
+  
+  
+	<h1> justify-content:flex-start</h1>
+    	<section class="flex">
+				<div class="row10">
+					<div class="four">
+						<div class="column10">
+							<div class="box11">
+							1
+							</div>
+						</div>
+					</div>
+					<div class="four">
+						<div class="column10">
+							<div class="box11">
+							2
+							</div>
+						</div>
+					</div>
+					<div class="four">
+						<div class="column10">
+							<div class="box11">
+							3
+							</div>
+						</div>
+					</div>
+		</section>
+    <h1>justify-content:flex-end;</h1>		
+        <section class="flex">
+				<div class="row11">
+					<div class="five">
+						<div class="column11">
+							<div class="box12">
+							1
+							</div>
+						</div>
+					</div>
+					<div class="five">
+						<div class="column11">
+							<div class="box12">
+							2
+							</div>
+						</div>
+					</div>
+					<div class="five">
+						<div class="column11">
+							<div class="box12">
+							3
+							</div>
+						</div>
+					</div>
+		</section>	
+    <h1>justify-content center </h1>
+	 <section class="flex">
+				<div class="row12">
+					<div class="five1">
+						<div class="column12">
+							<div class="box13">
+							1
+							</div>
+						</div>
+					</div>
+					<div class="five1">
+						<div class="column12">
+							<div class="box13">
+							2
+							</div>
+						</div>
+					</div>
+					<div class="five1">
+						<div class="column12">
+							<div class="box13">
+							3
+							</div>
+						</div>
+					</div>
+		</section>	
+		 <h1>justify-content space around </h1>
+	 <section class="flex">
+				<div class="row13">
+					<div class="five2">
+						<div class="column13">
+							<div class="box14">
+							1
+							</div>
+						</div>
+					</div>
+					<div class="five2">
+						<div class="column13">
+							<div class="box14">
+							2
+							</div>
+						</div>
+					</div>
+					<div class="five2">
+						<div class="column13">
+							<div class="box14">
+							3
+							</div>
+						</div>
+					</div>
+		</section>	
+			 <h1>justify-content space between </h1>
+	 <section class="flex">
+				<div class="row14">
+					<div class="five3">
+						<div class="column14">
+							<div class="box15">
+							1
+							</div>
+						</div>
+					</div>
+					<div class="five3">
+						<div class="column14">
+							<div class="box15">
+							2
+							</div>
+						</div>
+					</div>
+					<div class="five3">
+						<div class="column14">
+							<div class="box15">
+							3
+							</div>
+						</div>
+					</div>
+		</section>	
+		 <h1>justify-content space evenly </h1>
+	 <section class="flex">
+				<div class="row15">
+					<div class="five4">
+						<div class="column15">
+							<div class="box16">
+							1
+							</div>
+						</div>
+					</div>
+					<div class="five4">
+						<div class="column15">
+							<div class="box16">
+							2
+							</div>
+						</div>
+					</div>
+					<div class="five4">
+						<div class="column15">
+							<div class="box16">
+							3
+							</div>
+						</div>
+					</div>
+		</section>
+  
+  
+  </div>
+  
+<body>
